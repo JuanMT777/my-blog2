@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-pink.css">  
+<script src="requests.js"></script>  
+<title>Links website</title>
+<script src="https://unpkg.com/feather-icons"></script>
+
+<style>
+body {
+  background: url("/Imagenes/fondo2.webp"); /* The image used for background */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200vh;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links-container a {
+  width: 80%;
+  text-decoration-color: aliceblue;
+}
+
+.link {
+  margin-bottom: 24px;
+}
+
+.w3-theme-l1 {
+  background-color: #ff0000 !important;
+}
+
+.w3-theme-l1:focus {
+  background-color: #ff0000 !important;
+}
+.letra {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+.letra2 {
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+
+#biografia {
+  font-style: italic; 
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 32px;
+  margin-top: 16px;
+}
+
+.name w3-padding {
+  padding: 12px 24px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+}
+.w3-theme-l1:hover {
+  background-color: #ff0000 !important;
+}
+
+.margin-top-2 {
+  margin-top: 32px;
+  color: #ff0000;
+
+}
+
+.bottom {
+  width: 100%;
+  text-align: center;
+  width: auto;
+  font-weight: bolder;
+}
+
+.bottom span {
+  color: #ff0000;
+}
+
+.bottom svg {
+  stroke: #ff0000;
+  fill: #ff0000;
+}
+
+@media (min-width: 768px) {
+  .link {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+</style>
+  </head>
+  <body>
+    <!-- Content container -->
+    <div class="container">
+      <!-- Image and name container. Change to your pictue here. -->
+      <div style="text-align: center">
+        <img src="/Imagenes/avatar.png" class="w3-margin" alt="image" width="150px" height="150px" style="border-radius: 50%;">
+        <p class="letra"><span class="name w3-padding" style="background: #2f00ff;" id="name"></span></p> <hr>
+      </div>
+
+       <!-- Links section 1. Replace the # inside of the "" with your links. -->
+       <h4 class="margin-top-2" style="text-align: center;">MI BIOGRAFIA</h4> <hr>
+       <div class="links-container">
+        <p id="biografia"></p>
+       </div> <hr>
+
+       <center><p class="letra2">¡Mira mis enlaces!</p> <hr></center>
+
+      <!-- Links section 1. Replace the # inside of the "" with your links. -->
+      <h4 class="margin-top-2" style="text-align: center;">MIS REDES SOCIALES</h4>
+      <div class="links-container">
+        <a id="facebookLink" href="#" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Facebook</a>
+        <br>
+        <a id="instagramUser" href="#" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Instagram</a>
+        <br>
+        <a id="xUser" href="#" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">X</a>
+        <br>
+        <a id="githubUser" href="#" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Github</a>
+      </div> <hr>
+
+      <!-- Links section 2. Replace the # inside of the "" with your links. -->
+      <h4 class="margin-top-2" style="text-align: center;">MI EXPERIENCIA</h4>
+      <div class="links-container">
+        <a id="linkedinUser" href="#" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">LinkedIn</a>
+      </div> <hr>
+
+      <!-- Bottom section 3 -->
+      <div class="bottom margin-top-2 w3-padding w3-round">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+        <span id="author" style="vertical-align: 7px;"> 2025 - Hecho por Juan Manuel</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+      </div>
+      <hr>
+
+    </div>
+    <script>
+    </script>
+    
+  </body>  
+</html>

@@ -1,0 +1,30 @@
+{
+    "nombre": "Juan Manuel Torres Alvarez",
+    "biografia": "Soy un apasionado de la tecnología y el desarrollo web, con un enfoque especial en crear soluciones innovadoras y eficientes. Con experiencia en [React, Js, y en bases de datos SQL], disfruto enfrentar nuevos desafíos y aprender constantemente. Me encanta colaborar en proyectos que impacten positivamente y que permitan crecer tanto personal como profesionalmente. Fuera del ámbito laboral, disfruto de [aprender, viajar, leer, desarrollarme personalmente etc.], lo que me ayuda a mantener un equilibrio y una perspectiva creativa en mi trabajo.",
+  "enlaces": [
+      {
+        "titulo": "Facebook",
+        "url": "https://www.facebook.com/JuanMTss/"
+      },
+      {
+        "titulo": "Instagram",
+        "url": "https://www.instagram.com/juan_mt324/"
+      },
+      {
+        "titulo": "X",
+        "url": "https://twitter.com/tu_perfil"
+      },
+      {
+        "titulo": "Github",
+        "url": "https://github.com/JuanMT777"
+      },
+      {
+        "titulo": "LinkedIn",
+        "url": "https://www.linkedin.com/in/juan-manuel-torres-85145a2b5/"
+      },
+      {
+        "titulo": "Blog",
+        "url": "https://tu_blog.com"
+      }
+    ]
+  }
